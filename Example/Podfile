@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RSimpleCocoapodWithUI_Example' do
+  pod 'RSimpleCocoapodWithUI', :path => '../'
+
+  target 'RSimpleCocoapodWithUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
