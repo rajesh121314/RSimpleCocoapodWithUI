@@ -22,7 +22,7 @@ pod 'RSimpleCocoapodWithUI'
 
 ## Author
 
-imrajeshcoder, rajesh.s@vrinsoft.com
+RajeshShiyal, rajesh.s@vrinsoft.com
 
 ## License
 

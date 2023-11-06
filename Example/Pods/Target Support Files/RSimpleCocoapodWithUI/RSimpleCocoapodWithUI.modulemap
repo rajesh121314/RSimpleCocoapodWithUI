@@ -1,0 +1,6 @@
+framework module RSimpleCocoapodWithUI {
+  umbrella header "RSimpleCocoapodWithUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

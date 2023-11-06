@@ -7,23 +7,30 @@
 
 import UIKit
 
-class RSCLoginVC: UIViewController {
+public class RSCLoginVC: UIViewController {
+    
+    // MARK: - IBOutlets
+    @IBOutlet weak var txtEmail: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    
+    public init() {
+        let bundle = Bundle(for: type(of: self))
+        super.init(nibName: "RSCLoginVC", bundle: bundle)
 
-    override func viewDidLoad() {
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    // MARK: - Life cycle
+    override public func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    // MARK: - IBActions
+    @IBAction func signIn(_ sender: Any) {
+        print("username: \(txtEmail.text ?? "") password: \(txtPassword.text ?? "")")
+        self.dismiss(animated: true)
     }
-    */
 
 }

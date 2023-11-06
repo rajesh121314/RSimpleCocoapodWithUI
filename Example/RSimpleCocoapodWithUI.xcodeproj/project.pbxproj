@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27EC89E3A25398BC52798343 /* RSimpleCocoapodWithUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RSimpleCocoapodWithUI.podspec; path = ../RSimpleCocoapodWithUI.podspec; sourceTree = "<group>"; };
+		27EC89E3A25398BC52798343 /* RSimpleCocoapodWithUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSimpleCocoapodWithUI.podspec; path = ../RSimpleCocoapodWithUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		316A8194C3EFC9FED5CB84C2 /* Pods-RSimpleCocoapodWithUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSimpleCocoapodWithUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-RSimpleCocoapodWithUI_Tests/Pods-RSimpleCocoapodWithUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		324E7739FCF1FF0DB32439B8 /* Pods-RSimpleCocoapodWithUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSimpleCocoapodWithUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-RSimpleCocoapodWithUI_Example/Pods-RSimpleCocoapodWithUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4D5EF4A0EE94D53C88BCDFDF /* Pods_RSimpleCocoapodWithUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSimpleCocoapodWithUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* RSimpleCocoapodWithUI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSimpleCocoapodWithUI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7539CECA56357217BB6E6916 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7539CECA56357217BB6E6916 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9FB46AA67790DA9509766DAF /* Pods_RSimpleCocoapodWithUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSimpleCocoapodWithUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ABC6416666626A37C4F75E /* Pods-RSimpleCocoapodWithUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSimpleCocoapodWithUI_Example.release.xcconfig"; path = "Target Support Files/Pods-RSimpleCocoapodWithUI_Example/Pods-RSimpleCocoapodWithUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD8745CC54C89FEBEC1690E5 /* Pods-RSimpleCocoapodWithUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSimpleCocoapodWithUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RSimpleCocoapodWithUI_Tests/Pods-RSimpleCocoapodWithUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F49BE3241F1C9472F9CA5039 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F49BE3241F1C9472F9CA5039 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				AD8745CC54C89FEBEC1690E5 /* Pods-RSimpleCocoapodWithUI_Tests.debug.xcconfig */,
 				316A8194C3EFC9FED5CB84C2 /* Pods-RSimpleCocoapodWithUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
