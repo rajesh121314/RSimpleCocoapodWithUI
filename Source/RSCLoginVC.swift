@@ -6,12 +6,13 @@
 //
 
 import UIKit
-
+import SDWebImage
 public class RSCLoginVC: UIViewController {
     
     // MARK: - IBOutlets
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var imgBottumImage: UIImageView!
     
     public init() {
         let bundle = Bundle(for: type(of: self))
@@ -25,6 +26,8 @@ public class RSCLoginVC: UIViewController {
     // MARK: - Life cycle
     override public func viewDidLoad() {
         super.viewDidLoad()
+        guard let url = URL(string: "https://picsum.photos/200/300") else { return  }
+        imgBottumImage.sd_setImage(with: url)
     }
     
     // MARK: - IBActions

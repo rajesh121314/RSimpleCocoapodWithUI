@@ -1,15 +1,24 @@
 PODS:
-  - RSimpleCocoapodWithUI (0.1.0)
+  - RSimpleCocoapodWithUI (0.1.5):
+    - SDWebImage
+  - SDWebImage (5.18.3):
+    - SDWebImage/Core (= 5.18.3)
+  - SDWebImage/Core (5.18.3)
 
 DEPENDENCIES:
   - RSimpleCocoapodWithUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   RSimpleCocoapodWithUI:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RSimpleCocoapodWithUI: 3de30cfb7207c4319ee6e07e0433c73478eacd56
+  RSimpleCocoapodWithUI: ecaafb69b7a7520cffc5ddc829884534d4a116a2
+  SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
 
 PODFILE CHECKSUM: 5d3593c2d50515ee3ac858e205802f5a3628e586
 
