@@ -11,6 +11,7 @@
 		6D7511CE0B71DD86D4BF54BC95CE74AF /* RSimpleCocoapodWithUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F96777943011F966E88F8FD60EFAF84 /* RSimpleCocoapodWithUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75B3AED62AF9077C00A86E48 /* RSCLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B3AED42AF9077C00A86E48 /* RSCLoginVC.swift */; };
 		75B3AED72AF9077C00A86E48 /* RSCLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B3AED52AF9077C00A86E48 /* RSCLoginVC.xib */; };
+		75B3AF162AF91B2400A86E48 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B3AF152AF91B2400A86E48 /* Media.xcassets */; };
 		76918A7D86D7170C9D10F35D7A3C4B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8359E3E04384B233DF03393A70E30BD0 /* Pods-RSimpleCocoapodWithUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB346B495185BD7C69CFB82D9B17FC3 /* Pods-RSimpleCocoapodWithUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E3DC8395A3BF80F1FD9C73D7F3C435E /* Pods-RSimpleCocoapodWithUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF4B7AE27278744A1008145556A1615 /* Pods-RSimpleCocoapodWithUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,6 +54,7 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75B3AED42AF9077C00A86E48 /* RSCLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCLoginVC.swift; sourceTree = "<group>"; };
 		75B3AED52AF9077C00A86E48 /* RSCLoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSCLoginVC.xib; sourceTree = "<group>"; };
+		75B3AF152AF91B2400A86E48 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		7991D2DC519437E8D802AAD1B6F56D47 /* Pods-RSimpleCocoapodWithUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSimpleCocoapodWithUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		83CB56CC43E5F44FE41070BED5DC67EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8F96777943011F966E88F8FD60EFAF84 /* RSimpleCocoapodWithUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSimpleCocoapodWithUI-umbrella.h"; sourceTree = "<group>"; };
@@ -171,6 +173,14 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		75B3AF142AF91B1200A86E48 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				75B3AF152AF91B2400A86E48 /* Media.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		78DA7D078763C2EFBE236498617403D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +236,7 @@
 		EE44E8F1386C8B231E42B377DC323274 /* RSimpleCocoapodWithUI */ = {
 			isa = PBXGroup;
 			children = (
+				75B3AF142AF91B1200A86E48 /* Resource */,
 				75B3AED32AF906C700A86E48 /* Source */,
 				4045331AE434B7A83E0D2D0BF23934B3 /* Pod */,
 				96C836CC1322062A13823B6440B4C37D /* Support Files */,
@@ -359,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B3AF162AF91B2400A86E48 /* Media.xcassets in Resources */,
 				75B3AED72AF9077C00A86E48 /* RSCLoginVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
